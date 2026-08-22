@@ -187,3 +187,16 @@
 		>>> data_tunggal.sub_judul
 		'Halaman ini dipanggil secara dinamis menggunakan Django ORM dan Context.'
 		>>>
+
+#### Unit 5.4: Creating a Superuser
+
+        modified:   journal.md
+
+		(venv31361) λ python manage.py createsuperuser
+		Username (leave blank to use 'asus'): c
+		Email address: superuser@mail.com
+		Password:
+		Password (again):
+		The password is too similar to the email address.
+		Bypass password validation and create user anyway? [y/N]: y
+		Superuser created successfully.
