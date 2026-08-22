@@ -170,3 +170,20 @@
 		>>> data.sub_judul
 		'Halaman ini dipanggil secara dinamis menggunakan Django ORM dan Context.'
 		>>>
+
+#### Unit 5.3: Reading Data
+
+		>>> semua_data = KontenHalaman.objects.all()
+		>>> semua_data
+		<QuerySet [<KontenHalaman: KontenHalaman object (1)>]>
+		>>>
+		>>> data_tunggal = KontenHalaman.objects.get(id=1)
+		>>> data_tunggal
+		<KontenHalaman: KontenHalaman object (1)>
+		>>>
+		>>> data_tunggal.judul
+		'Selamat Datang di iPortfolio!'
+		>>>
+		>>> data_tunggal.sub_judul
+		'Halaman ini dipanggil secara dinamis menggunakan Django ORM dan Context.'
+		>>>
