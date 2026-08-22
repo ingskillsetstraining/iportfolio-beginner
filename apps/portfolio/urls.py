@@ -9,4 +9,7 @@ urlpatterns = [
     
     # Menambahkan rute alamat untuk halaman about
     path('about/', views.about, name='about'),
+    
+    # Menambahkan rute alamat untuk halaman portfolio
+    path('portfolio/', views.portfolio, name='portfolio'),
 ]

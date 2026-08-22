@@ -10,3 +10,8 @@ def home(request):
 def about(request):
     # Memerintahkan Django untuk mencari dan merender file about.html
     return render(request, 'portfolio/about.html')
+
+# Fungsi view baru khusus untuk halaman Portfolio
+def portfolio(request):
+    # Memerintahkan Django untuk mencari dan merender file portfolio.html
+    return render(request, 'portfolio/portfolio.html')

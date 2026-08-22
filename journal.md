@@ -245,3 +245,10 @@
         modified:   apps/portfolio/views.py
         modified:   journal.md
         new file:   templates/portfolio/about.html
+
+#### Unit 6.3: Creating the Portfolio Page
+
+        modified:   apps/portfolio/urls.py
+        modified:   apps/portfolio/views.py
+        modified:   journal.md
+        new file:   templates/portfolio/portfolio.html
