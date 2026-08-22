@@ -49,3 +49,14 @@
 
 
 ## Section 3: Django Applications
+
+#### Unit 3.1: Creating a Django Application
+
+        new file:   apps/portfolio/__init__.py
+        new file:   apps/portfolio/admin.py
+        new file:   apps/portfolio/apps.py
+        new file:   apps/portfolio/migrations/__init__.py
+        new file:   apps/portfolio/models.py
+        new file:   apps/portfolio/tests.py
+        new file:   apps/portfolio/views.py
+        modified:   journal.md
