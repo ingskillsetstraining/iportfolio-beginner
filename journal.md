@@ -142,3 +142,6 @@
         new file:   apps/portfolio/migrations/0001_initial.py
         modified:   apps/portfolio/models.py
         modified:   journal.md
+
+
+## Section 5: Django CRUD
