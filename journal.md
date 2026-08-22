@@ -200,3 +200,25 @@
 		The password is too similar to the email address.
 		Bypass password validation and create user anyway? [y/N]: y
 		Superuser created successfully.
+
+#### Unit 5.5: Deleting Data
+
+		(venv31361) λ python manage.py shell
+		13 objects imported automatically (use -v 2 for details).
+
+		Python 3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)] on win32
+		Type "help", "copyright", "credits" or "license" for more information.
+		(InteractiveConsole)
+		>>>
+		>>> # Create new object
+		>>> KontenHalaman.objects.create(judul="Data Uji Coba", sub_judul="Teks ini sengaja dibuat untuk eksperimen penghapusan.")
+		<KontenHalaman: KontenHalaman object (2)>
+		>>>
+		>>> # Delete an object
+		>>> target = KontenHalaman.objects.get(id=2)
+		>>> target.delete()
+		(1, {'portfolio.KontenHalaman': 1})
+
+		>>> # Check the result
+		>>> KontenHalaman.objects.all()
+		<QuerySet [<KontenHalaman: KontenHalaman object (1)>]>
