@@ -30,3 +30,8 @@ def skills(request):
 def testimoni(request):
     # Memerintahkan Django untuk mencari dan merender file testimoni.html
     return render(request, 'portfolio/testimoni.html')
+
+# Fungsi view baru khusus untuk halaman Contact
+def contact(request):
+    # Memerintahkan Django untuk mencari dan merender file contact.html
+    return render(request, 'portfolio/contact.html')

@@ -273,3 +273,10 @@
         modified:   apps/portfolio/views.py
         modified:   journal.md
         new file:   templates/portfolio/testimoni.html
+
+#### Unit 6.7: Creating the Contact Page
+
+        modified:   apps/portfolio/urls.py
+        modified:   apps/portfolio/views.py
+        modified:   journal.md
+        new file:   templates/portfolio/contact.html

@@ -21,4 +21,7 @@ urlpatterns = [
     
     # Menambahkan rute alamat untuk halaman testimoni
     path('testimoni/', views.testimoni, name='testimoni'),
+    
+    # Menambahkan rute alamat untuk halaman contact
+    path('contact/', views.contact, name='contact'),
 ]
