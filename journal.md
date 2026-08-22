@@ -14,3 +14,13 @@
 		Unit 1.4:  Installing Django
 
 ## Section 2: Django Project
+
+#### Unit 2.1: Initializing a Django Project
+
+        new file:   config/__init__.py
+        new file:   config/asgi.py
+        new file:   config/settings.py
+        new file:   config/urls.py
+        new file:   config/wsgi.py
+        modified:   journal.md
+        new file:   manage.py
