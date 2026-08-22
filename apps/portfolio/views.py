@@ -15,3 +15,8 @@ def about(request):
 def portfolio(request):
     # Memerintahkan Django untuk mencari dan merender file portfolio.html
     return render(request, 'portfolio/portfolio.html')
+
+# Fungsi view baru khusus untuk halaman Services
+def services(request):
+    # Memerintahkan Django untuk mencari dan merender file services.html
+    return render(request, 'portfolio/services.html')

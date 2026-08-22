@@ -12,4 +12,7 @@ urlpatterns = [
     
     # Menambahkan rute alamat untuk halaman portfolio
     path('portfolio/', views.portfolio, name='portfolio'),
+    
+    # Menambahkan rute alamat untuk halaman services
+    path('services/', views.services, name='services'),
 ]
