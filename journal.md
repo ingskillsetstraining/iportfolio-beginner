@@ -77,3 +77,6 @@
 
 		(venv31361) λ python manage.py check
 		System check identified no issues (0 silenced).
+
+
+## Section 4: Basic Django Components
