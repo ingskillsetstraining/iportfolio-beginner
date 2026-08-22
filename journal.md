@@ -222,3 +222,7 @@
 		>>> # Check the result
 		>>> KontenHalaman.objects.all()
 		<QuerySet [<KontenHalaman: KontenHalaman object (1)>]>
+
+#### Unit 5.6: Updating Models
+
+		modified:   apps/portfolio/models.py
