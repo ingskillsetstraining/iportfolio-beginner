@@ -280,3 +280,14 @@
         modified:   apps/portfolio/views.py
         modified:   journal.md
         new file:   templates/portfolio/contact.html
+
+#### Unit 6.8: Linking Web Pages
+
+        modified:   journal.md
+        modified:   templates/portfolio/about.html
+        modified:   templates/portfolio/contact.html
+        modified:   templates/portfolio/home.html
+        modified:   templates/portfolio/portfolio.html
+        modified:   templates/portfolio/services.html
+        modified:   templates/portfolio/skills.html
+        modified:   templates/portfolio/testimoni.html
