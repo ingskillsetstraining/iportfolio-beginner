@@ -6,4 +6,7 @@ from . import views
 urlpatterns = [
     # Mengarahkan rute utama aplikasi ke fungsi view bernama home
     path('', views.home, name='home'),
+    
+    # Menambahkan rute alamat untuk halaman about
+    path('about/', views.about, name='about'),
 ]

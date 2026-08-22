@@ -238,3 +238,10 @@
         modified:   journal.md
         new file:   templates/portfolio/home.html
         deleted:    templates/portfolio/index.html
+
+#### Unit 6.2: Creating the About Page
+
+        modified:   apps/portfolio/urls.py
+        modified:   apps/portfolio/views.py
+        modified:   journal.md
+        new file:   templates/portfolio/about.html
