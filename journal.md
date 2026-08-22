@@ -92,3 +92,11 @@
         modified:   journal.md
 
         Note: You should see Halo, Dunia! in the browser.
+
+#### Unit 4.3: Django Templates
+
+        modified:   apps/portfolio/views.py
+        modified:   config/settings.py
+        modified:   config/urls.py
+        modified:   journal.md
+        new file:   templates/portfolio/index.html
