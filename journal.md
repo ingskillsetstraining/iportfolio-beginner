@@ -85,3 +85,10 @@
 
         modified:   apps/portfolio/views.py
         modified:   journal.md
+
+#### Unit 4.2: Django URLs
+
+        modified:   config/urls.py
+        modified:   journal.md
+
+        Note: You should see Halo, Dunia! in the browser.
