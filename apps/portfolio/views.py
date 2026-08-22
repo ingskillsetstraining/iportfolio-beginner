@@ -25,3 +25,8 @@ def services(request):
 def skills(request):
     # Memerintahkan Django untuk mencari dan merender file skills.html
     return render(request, 'portfolio/skills.html')
+
+# Fungsi view baru khusus untuk halaman Testimoni
+def testimoni(request):
+    # Memerintahkan Django untuk mencari dan merender file testimoni.html
+    return render(request, 'portfolio/testimoni.html')

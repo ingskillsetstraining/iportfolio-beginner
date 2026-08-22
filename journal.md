@@ -266,3 +266,10 @@
         modified:   apps/portfolio/views.py
         modified:   journal.md
         new file:   templates/portfolio/skills.html
+
+#### Unit 6.6: Creating the Testimonials Page
+
+        modified:   apps/portfolio/urls.py
+        modified:   apps/portfolio/views.py
+        modified:   journal.md
+        new file:   templates/portfolio/testimoni.html
