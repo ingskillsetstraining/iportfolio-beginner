@@ -12,3 +12,5 @@
 		Unit 1.2:  Getting Started with Django
 		Unit 1.3:  Creating Virtual Environment
 		Unit 1.4:  Installing Django
+
+## Section 2: Django Project
