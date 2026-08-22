@@ -157,3 +157,16 @@
 		>>> 
 		>>> KontenHalaman.objects.create(judul="Selamat Datang di iPortfolio!", sub_judul="Halaman ini dipanggil menggunakan struktur templates global.")
 		<KontenHalaman: KontenHalaman object (1)>
+
+#### Unit 5.2: Updating Data
+
+		>>> data = KontenHalaman.objects.get(id=1)
+		>>> data.judul
+		'Selamat Datang di iPortfolio!'
+		>>> data.sub_judul
+		'Halaman ini dipanggil menggunakan struktur templates global.'
+		>>> data.sub_judul = "Halaman ini dipanggil secara dinamis menggunakan Django ORM dan Context."
+		>>> data.save()
+		>>> data.sub_judul
+		'Halaman ini dipanggil secara dinamis menggunakan Django ORM dan Context.'
+		>>>
