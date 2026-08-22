@@ -80,3 +80,8 @@
 
 
 ## Section 4: Basic Django Components
+
+#### Unit 4.1: Django Views
+
+        modified:   apps/portfolio/views.py
+        modified:   journal.md
