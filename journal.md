@@ -259,3 +259,10 @@
         modified:   apps/portfolio/views.py
         modified:   journal.md
         new file:   templates/portfolio/services.html
+
+#### Unit 6.5: Creating the Skills Page
+
+        modified:   apps/portfolio/urls.py
+        modified:   apps/portfolio/views.py
+        modified:   journal.md
+        new file:   templates/portfolio/skills.html

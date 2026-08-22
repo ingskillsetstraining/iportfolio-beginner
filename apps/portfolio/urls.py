@@ -15,4 +15,7 @@ urlpatterns = [
     
     # Menambahkan rute alamat untuk halaman services
     path('services/', views.services, name='services'),
+    
+    # Menambahkan rute alamat untuk halaman skills
+    path('skills/', views.skills, name='skills'),
 ]
