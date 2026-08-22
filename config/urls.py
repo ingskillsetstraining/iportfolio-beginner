@@ -1,10 +1,11 @@
 # config/urls.py
 
 from django.contrib import admin
-from django.urls import path
-from portfolio.views import portfolio_home
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', portfolio_home),
+    
+    # Menghubungkan dan memasukkan seluruh rute alamat dari file portfolio.urls
+    path('', include('portfolio.urls')),
 ]

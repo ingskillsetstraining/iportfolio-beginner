@@ -229,3 +229,12 @@
 
 
 ## Section 6: Creating Web Pages
+
+#### Unit 6.1: Creating the Home Page
+
+        new file:   apps/portfolio/urls.py
+        modified:   apps/portfolio/views.py
+        modified:   config/urls.py
+        modified:   journal.md
+        new file:   templates/portfolio/home.html
+        deleted:    templates/portfolio/index.html
