@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    # Tambahkan aplikasi kustom Anda di bawah ini:
+    'portfolio',
 ]
 
 MIDDLEWARE = [

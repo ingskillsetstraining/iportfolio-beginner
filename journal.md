@@ -60,3 +60,12 @@
         new file:   apps/portfolio/tests.py
         new file:   apps/portfolio/views.py
         modified:   journal.md
+
+#### Unit 3.2: Registering a Django Application (Default Method)
+
+        modified:   config/settings.py
+        modified:   journal.md
+
+		Note:
+		1. Error due to unproper path for the 'apps'
+		2. Error will be solved in Unit 3.3
