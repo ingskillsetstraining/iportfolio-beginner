@@ -100,3 +100,9 @@
         modified:   config/urls.py
         modified:   journal.md
         new file:   templates/portfolio/index.html
+
+#### Unit 4.4: Serving Static Data
+
+        modified:   apps/portfolio/views.py
+        modified:   journal.md
+        modified:   templates/portfolio/index.html
