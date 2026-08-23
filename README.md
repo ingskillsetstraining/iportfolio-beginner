@@ -14,6 +14,49 @@ This project is a comprehensive guide to building a professional portfolio appli
 ## 📄 Beginner Level Details
 For a step-by-step breakdown, progress tracking, and specific implementation notes for this beginner phase, please refer directly to the [jurnal.md](./jurnal.md) file.
 
+## Project structure
+
+```bash
+.
+|-- README.md
+|-- apps
+|   `-- portfolio
+|       |-- __init__.py
+|       |-- admin.py
+|       |-- apps.py
+|       |-- migrations
+|       |-- models.py
+|       |-- tests.py
+|       |-- urls.py
+|       `-- views.py
+|-- config
+|   |-- __init__.py
+|   |-- asgi.py
+|   |-- settings.py
+|   |-- urls.py
+|   `-- wsgi.py
+|-- db.sqlite3
+|-- journal.md
+|-- manage.py
+|-- requirements.txt
+|-- static
+|   `-- assets
+|-- templates
+|   `-- portfolio
+|       |-- about.html
+|       |-- contact.html
+|       |-- home.html
+|       |-- portfolio.html
+|       |-- services.html
+|       |-- skills.html
+|       `-- testimoni.html
+`-- venv31361
+    |-- Include
+    |-- Lib
+    |   `-- site-packages
+    |-- Scripts
+    `-- pyvenv.cfg
+```
 
 ## 🚀 Key Features
 * **Full CRUD Operations:** Seamless data management (Create, Read, Update, Delete).

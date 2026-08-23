@@ -341,3 +341,8 @@
         modified:   journal.md
         ...
         new file:   static/assets/img/unsplash/testimoni-5.jpg
+
+#### Added project structure in README.md file
+
+        modified:   README.md
+        modified:   journal.md
