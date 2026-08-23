@@ -3,13 +3,6 @@
 # new---------
 venv31361
 
-**/static/**/*.jpg
-**/static/**/*.jpeg
-**/static/**/*.png
-**/static/**/*.gif
-**/static/**/*.webp
-**/static/**/*.svg
-
 # end new-----
 __pycache__/
 *.py[codz]

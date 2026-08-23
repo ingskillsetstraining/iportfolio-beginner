@@ -334,3 +334,10 @@
         modified:   README.md
         modified:   journal.md
         new file:   requirements.txt
+
+#### Added static assets
+
+        modified:   .gitignore
+        modified:   journal.md
+        ...
+        new file:   static/assets/img/unsplash/testimoni-5.jpg
