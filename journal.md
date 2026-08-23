@@ -317,3 +317,14 @@
 #### Unit 7.3: Main Content for 6 Other Pages
 
 	Note: Preparing the main part of each page.
+
+#### Unit 7.4: Static Files
+
+        modified:   journal.md
+        modified:   templates/portfolio/about.html
+        modified:   templates/portfolio/contact.html
+        modified:   templates/portfolio/home.html
+        modified:   templates/portfolio/portfolio.html
+        modified:   templates/portfolio/services.html
+        modified:   templates/portfolio/skills.html
+        modified:   templates/portfolio/testimoni.html
