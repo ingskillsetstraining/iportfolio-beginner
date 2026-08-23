@@ -302,3 +302,14 @@
         ...
         new file:   static/assets/vendor/typed.js/typed.umd.js.map
         new file:   static/assets/vendor/waypoints/noframework.waypoints.js
+
+#### Unit 7.2: Installing HTML Files
+
+        modified:   journal.md
+        modified:   templates/portfolio/about.html
+        modified:   templates/portfolio/contact.html
+        modified:   templates/portfolio/home.html
+        modified:   templates/portfolio/portfolio.html
+        modified:   templates/portfolio/services.html
+        modified:   templates/portfolio/skills.html
+        modified:   templates/portfolio/testimoni.html
