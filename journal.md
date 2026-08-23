@@ -313,3 +313,7 @@
         modified:   templates/portfolio/services.html
         modified:   templates/portfolio/skills.html
         modified:   templates/portfolio/testimoni.html
+
+#### Unit 7.3: Main Content for 6 Other Pages
+
+	Note: Preparing the main part of each page.
