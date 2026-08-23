@@ -291,3 +291,6 @@
         modified:   templates/portfolio/services.html
         modified:   templates/portfolio/skills.html
         modified:   templates/portfolio/testimoni.html
+
+
+## Section 7: Integrating HTML Templates
