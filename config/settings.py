@@ -121,7 +121,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.1/howto/static-files/
 
 STATIC_URL = "static/"
-
+# Jalur fisik di komputer tempat Anda meletakkan folder static global sejajar dengan templates
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
 
 # Email
 # https://docs.djangoproject.com/en/6.1/topics/email/#topic-email-configuration
@@ -131,3 +134,9 @@ MAILERS = {
         "BACKEND": "django.core.mail.backends.console.EmailBackend",
     },
 }
+
+# Alamat URL publik yang digunakan browser untuk memanggil file media unggahan user
+MEDIA_URL = 'media/'
+
+# Lokasi folder fisik di komputer tempat penyimpanan file media yang diunggah oleh pengguna
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

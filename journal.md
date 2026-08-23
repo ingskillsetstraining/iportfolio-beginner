@@ -294,3 +294,11 @@
 
 
 ## Section 7: Integrating HTML Templates
+
+#### Unit 7.1: File Statis dan Media
+
+        modified:   config/settings.py
+        modified:   config/urls.py
+        ...
+        new file:   static/assets/vendor/typed.js/typed.umd.js.map
+        new file:   static/assets/vendor/waypoints/noframework.waypoints.js
